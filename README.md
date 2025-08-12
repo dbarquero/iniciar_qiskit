@@ -26,3 +26,20 @@ git clone https://github.com/dbarquero/iniciar_qiskit.git
 cd iniciar_qiskit
 chmod +x iniciar_qiskit.sh
 ./iniciar_qiskit.sh
+
+---
+## Usage
+When finished, the script will start Jupyter Notebook on port 8888.
+Copy the URL shown in the terminal and open it in your browser.
+
+Example:
+
+http://127.0.0.1:8888/?token=xxxxxxxxxxxxxxxxxxxx
+If running on a remote server, replace 127.0.0.1 with the server’s IP address.
+
+##  Directory structure
+
+~/jupyter_qiskit/
+ ├── venv/                  # Virtual environment
+ ├── bronze-qiskit/         # Exercises & notebooks
+ └── ...                    
