@@ -20,7 +20,7 @@ This repository contains a **Bash script** that automates the installation of **
 
 ---
 
-## 🖥 Installation
+## Installation
 ```bash
 git clone https://github.com/dbarquero/iniciar_qiskit.git
 cd iniciar_qiskit
